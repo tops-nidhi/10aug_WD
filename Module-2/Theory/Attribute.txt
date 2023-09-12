@@ -1,0 +1,7 @@
+Attribute:-
+->Attribute is use to define the property of the element.
+->Attribute is use to define additional information 
+->Attribute is compulsory define inside the start tag
+
+for ex., <html lang="en"></html>
+---------------------------------------------

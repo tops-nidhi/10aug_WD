@@ -1,0 +1,11 @@
+Tag:- 
+-> Tag is use to tell the browser how to show the content
+<html></html>:- is the root element 
+    Types:-
+        1.Pair Tag
+            ->ex., p, title, div, script
+            start tag: -> <title>
+            End tag: -> </title>
+        2.Non Pair / Void / self / empty Tag
+            ->ex., br, hr, link, meta
+--------------------------------------------------------------------

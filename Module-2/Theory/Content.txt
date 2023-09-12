@@ -1,0 +1,7 @@
+
+Content:-
+-> Which is define between the start tag and end tag.
+
+for ex., <title>Info</title>
+-> Here 'info' is the content
+-------------------------------------------------------------------
