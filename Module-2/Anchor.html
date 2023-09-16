@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anchor</title>
+    <style>
+        /* Pseudo class (CSS3)*/
+        a:visited {
+            color: #b7f;
+        }
+
+        a:link {
+            color: #aaf;
+        }
+
+        a:active {
+            color: rgb(120, 90, 120);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+        Normal link -> Non visited link
+        Active link -> Click on the and open the link in between process
+        Visited link -> A link that you already visit 
+        target attribute set the target where the link will be open
+            {
+                "_blank": Opens a new window or tab
+                "_self":  Opens a that window or tab (by default)
+            }
+        HREF - HTTP reference
+            href is use to give the link
+
+     -->
+    <a href="https://www.google.com">Google</a>
+    <a href="https://www.amazon.in" target="_self">Amazon</a>
+    <a href="https://www.myntra.com" target="_blank">Myntra</a>
+    <a href="https://api.whatsapp.com/send?phone=8264419651&text=Hello%20Rakesh" target="_blank">Whatsapp</a>
+</body>
+
+</html>

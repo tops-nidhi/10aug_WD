@@ -1,5 +1,4 @@
 Tag:- 
--> Tag is use to tell the browser how to show the content
 <html></html>:- is the root element 
     Types:-
         1.Pair Tag
