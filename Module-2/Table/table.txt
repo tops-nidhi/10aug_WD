@@ -1,0 +1,22 @@
+Table is use to arrange the data in tabular formate
+
+Element:-
+<table></table> -  is the main element to create the table
+<tr></tr> - Table row
+<td></td> - table data
+<th></th> - table heading
+<caption></caption> - USe to give description about the table
+<thead></thead> - Table Head
+<tbody></tbody> - Table Body
+<tfoot></tfoot> - Table Footer
+
+attribute:-
+border - To apply the border
+cellpadding - to apply the inside the cell
+cellspacing - to apply the space between 2 cell
+colspan - to merge multiple column into one single column.
+rowspan - to merge multiple rows into a single row
+width and height - to set width & heigh of the table
+align-left, align-right , align-center, align-justify - used for alignment purpose
+bgcolor - background color of the whole table
+background - image as background
