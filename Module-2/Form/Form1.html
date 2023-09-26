@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form1</title>
+    <style>
+        div{
+            height: auto;
+            width : 20%;
+            float: left;
+            /* border: 1px solid red; */
+            /* margin: 5px; */
+            margin: auto;
+        }
+        .label{
+            margin-left: 450px ;
+            width: 15%;
+            /* text-align: right; */
+        }
+    </style>
+</head>
+<body>
+    <div class="label">
+        <form action="" method="post">
+            <label for="name">Name: </label><br><br>
+            <!-- <label for="code"> </label><br><br> -->
+            <label for="phone">Phone No: </label><br><br>
+            <label for="address">Address: </label><br><br><br><br><br><br><br><br>
+            <label for="gender">Gender: </label><br><br>
+
+        </form>
+    </div>
+    <div>
+        <form action="" method="post">
+            <input type="text" name="name" id="name"><br><br>
+            <select name="code" title="select country code">
+                <option value="14">+14</option>
+                <option value="1">+1</option>
+                <option value="91" selected>+91</option>
+                <option value="12">+12</option>
+            </select>
+            <input type="tel" name="phone" id="phone"><br><br>
+            <textarea name="address" id="address" cols="30" rows="7"></textarea><br><br>
+            Female<input type="radio" name="gender" id="female">
+            Male<input type="radio" name="gender" id="male">
+            Other<input type="radio" name="gender" id="other"><br><br>
+            <button style="margin-top:-6%;" >Submit</button>
+        </form>
+    </div>
+</body>
+</html>
