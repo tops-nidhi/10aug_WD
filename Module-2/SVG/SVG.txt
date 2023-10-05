@@ -1,0 +1,20 @@
+SVG:-
+Svg is stands for the Scalable Vector Graphics
+
+- SVG is use to create the graphics.
+- SVG is a vector base graphics.
+- To create SVG no need to learn the javascript.
+- SVG isn't blur on the zoom because it's use the vector base graphics.
+- SVG didn't use pixel.
+- Can create the SVG using 'svg' tag.
+
+---------------------------------------------------------------------------------------------------
+
+Canvas:-
+
+- Canvas is also use to create the graphics.
+- Canvas is a raster base graphics.
+- To create canvas you need to learn the basic javascript.
+- Canvas is blur on the zoom because it's use the raster base graphics.
+- Canvas did use pixel.
+- Can create the canvas using 'canvas' tag(using javascript).
