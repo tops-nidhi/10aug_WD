@@ -1,0 +1,14 @@
+@media (max-width:500px) {
+    .header ul {
+        display: none;
+    }
+
+    .header button {
+        display: block;
+    }
+
+    .card-container {
+        grid-template-rows: repeat(10, 1fr);
+        grid-template-columns: 1fr;
+    }
+}
