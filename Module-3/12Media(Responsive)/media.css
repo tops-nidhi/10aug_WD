@@ -12,3 +12,32 @@
         grid-template-columns: 1fr;
     }
 }
+@media (min-width: 500px) and (max-width: 700px){
+     .header ul {
+        display: none;
+    }
+
+    .header button {
+        display: block;
+        width: 100%;
+        text-align: right;
+    }
+    .card-container {
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 700px) and (max-width: 1050px)
+{
+    .header ul{
+        padding: 7px;
+    }
+    .header ul li{
+        margin: 3px;
+        padding: 20px;
+    }
+    .card-container{
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

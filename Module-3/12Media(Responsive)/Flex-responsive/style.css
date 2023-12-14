@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: auto;
+    width: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.container .item{
+    height: 75vh;
+    width: 25%;
+    /* border: 3px solid blue; */
+}
+.container .item img{
+    height: 100%;
+    width: 100%;
+}
