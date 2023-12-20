@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        body {
+            background: #000000;
+        }
+
+        div {
+            height: 250px;width: 250px;
+            margin: 50px auto;
+            background: #000;
+            border: 20px solid ;
+            border-top-color: royalblue;
+            border-radius: 50%;
+            animation-play-state: running;
+            animation-timing-function: linear;
+            animation-name: animate;
+            animation-delay: 1s;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes animate{
+            0%{
+                /* background: purple; */
+                /* transform: rotate(0deg); */
+                /* border: 10px solid;
+                border-color: red blue green yellow; */
+                
+            }
+            25%{
+                /* background: mediumslateblue; */
+                /* transform: rotate(90deg); */
+                /* border: 10px solid;
+                border-color:yellow red blue green ; */
+                border-top-color: royalblue;
+                border-right-color: royalblue;
+            }
+            50%{
+                /* background: rgb(167, 110, 181); */
+                /* transform: rotate(180deg); */
+                /* border: 10px solid;
+                border-color: green yellow red blue ; */
+                border-top-color: royalblue;
+                border-right-color: royalblue;
+                border-bottom-color: royalblue;
+            }
+            75%{
+                /* background: palevioletred; */
+                /* transform: rotate(225deg); */
+                /* border: 10px solid;
+                border-color: blue green yellow red ; */
+            }
+            100%{
+                /* background: plum; */
+                transform: rotate(360deg);
+                /* border: 10px solid;
+                border-color: red blue green yellow ; */
+                border-color: royalblue;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+</html>
